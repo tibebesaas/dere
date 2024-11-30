@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\louab\Downloads\06-binary-tree-derejenegatu-main\06-binary-tree-derejenegatu-main\CMakeFiles\1f7d20e93e50c887b72f4b9ae47f1a99\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\louab\Downloads\06-binary-tree-derejenegatu-main\06-binary-tree-derejenegatu-main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\louab\Downloads\06-binary-tree-derejenegatu-main\06-binary-tree-derejenegatu-main\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{80AFB90E-A724-3C88-A2BF-14C2F89F12F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

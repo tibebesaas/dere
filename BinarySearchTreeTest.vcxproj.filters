@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\louab\Downloads\06-binary-tree-derejenegatu-main\06-binary-tree-derejenegatu-main\src\BinaryTreeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\louab\Downloads\06-binary-tree-derejenegatu-main\06-binary-tree-derejenegatu-main\inc\BinaryTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\louab\Downloads\06-binary-tree-derejenegatu-main\06-binary-tree-derejenegatu-main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F5B7A712-81C4-3F89-A44F-5EA8B655A285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B4FDC52E-DDA7-3C62-B6AA-A91255907431}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

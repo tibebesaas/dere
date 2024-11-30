@@ -1,0 +1,10 @@
+^C:\USERS\LOUAB\DOWNLOADS\06-BINARY-TREE-DEREJENEGATU-MAIN\06-BINARY-TREE-DEREJENEGATU-MAIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/louab/Downloads/06-binary-tree-derejenegatu-main/06-binary-tree-derejenegatu-main -BC:/Users/louab/Downloads/06-binary-tree-derejenegatu-main/06-binary-tree-derejenegatu-main --check-stamp-file C:/Users/louab/Downloads/06-binary-tree-derejenegatu-main/06-binary-tree-derejenegatu-main/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
