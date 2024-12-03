@@ -151,15 +151,20 @@ void BinaryTree<Type>::preOrder(Node<Type>* curr) {
 template <class Type>
 void BinaryTree<Type>::inOrder(std::ostringstream& out) {
     std::cout << "In Order: ";
+    isFirst = true;
     inOrder(root, out);
-    trimTrailingSpace(out);  // Trim the trailing space after traversal
+    //trimTrailingSpace(out);  // Trim the trailing space after traversal
 }
 
 template <class Type>
 void BinaryTree<Type>::inOrder(Node<Type>* curr, std::ostringstream& out) {
     if (curr) {
         inOrder(curr->left, out);
-        out << curr->item << " ";
+        if(!isFirst){
+            out << " ";
+        }
+           isFirst = false;   
+        out << curr->item;
         inOrder(curr->right, out);
     }
 }
