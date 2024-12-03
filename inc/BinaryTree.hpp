@@ -45,6 +45,7 @@ private:
     Node<Type>* find(Type item, Node<Type>* curr);
     Node<Type>* remove(Type item, Node<Type>* curr);
     int height(int level, Node<Type>* curr);
+    bool isFirst {true};
 
     // Method to trim trailing space from ostringstream
     void trimTrailingSpace(std::ostringstream& out) {
